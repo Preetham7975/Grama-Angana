@@ -9,6 +9,7 @@
 Rural community halls are often underutilized due to opaque booking systems and a lack of transparent funding for minor repairs. Grama-Angana solves this by replacing informal "keyholder" dependencies with a real-time digital calendar and a community "Maintenance Jar" for crowdfunding upkeep via UPI.
 
 ## Features
+* **GenAI Impact Reporting:** (Future Scope/Implementation) Integrates with Google Gemini AI to analyze monthly facility usage and automatically draft localized community impact reports for Panchayat officials.
 * **Unified Authentication:** Secure login using Firebase Email/Password.
 * **Facility Booking System:** Real-time calendar UI preventing double-bookings using Firestore Transactions.
 * **Maintenance Jar:** Crowdfunding module with visual progress bars to track repair goals.
