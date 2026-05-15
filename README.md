@@ -22,6 +22,12 @@ Rural community halls are often underutilized due to opaque booking systems and 
 * **Backend & DB:** Firebase Authentication, Cloud Firestore
 * **Local Cache:** Room DB
 
+## System Architecture
+Grama-Angana enforces a strict **Single Source of Truth** using the MVVM pattern:
+1. **UI Layer (Compose):** Observes state from the ViewModel. Never fetches data directly.
+2. **ViewModel Layer:** Handles user intents (e.g., "Book Date") and manages UI state using Kotlin Coroutines and `StateFlow`.
+3. **Repository Layer:** Acts as the decision-maker between fetching live data from **Firebase Cloud Firestore** or returning cached offline data from the local **Room Database**.
+
 ## Setup and Installation Instructions
 To install and run this project on your local machine, follow these setup steps:
 1. Clone the repository: `git clone https://github.com/Preetham7975/Grama-Angana.git`
