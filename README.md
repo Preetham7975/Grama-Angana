@@ -1,3 +1,10 @@
+<p align="left">
+  <img src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+</p>
+
 ## Problem Statement
 Rural community halls are often underutilized due to opaque booking systems and a lack of transparent funding for minor repairs. Grama-Angana solves this by replacing informal "keyholder" dependencies with a real-time digital calendar and a community "Maintenance Jar" for crowdfunding upkeep via UPI.
 
