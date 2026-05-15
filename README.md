@@ -23,13 +23,24 @@ To install and run this project on your local machine, follow these setup steps:
 5. Click the **Run** button (Shift + F10) to deploy to an emulator or connected Android device.
 
 ## Screenshots
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/197976d8-6155-4044-9158-8c5f172b7aa1" width="250" alt="Login Screen" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/0345dee4-53f5-449c-a59a-14ae1e24ac97" width="250" alt="Calendar Booking" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/89cfcb93-b4ab-4a02-a536-f8a1e30e2e7b" width="250" alt="Maintenance Jar" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/197976d8-6155-4044-9158-8c5f172b7aa1" width="250" alt="Login Screen" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/0345dee4-53f5-449c-a59a-14ae1e24ac97" width="250" alt="Calendar Booking" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/89cfcb93-b4ab-4a02-a536-f8a1e30e2e7b" width="250" alt="Maintenance Jar" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Login Screen</b></td>
+    <td align="center"><b>Calendar Booking</b></td>
+    <td align="center"><b>Maintenance Jar</b></td>
+  </tr>
+</table>
 
 ## Folder Structure
 * `app/src/main/java/.../viewmodels` - Contains all MVVM business logic.
